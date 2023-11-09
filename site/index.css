@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Kenia';
+    src: url('fonts/Kenia-Regular.ttf') format('truetype');
+    font-style: normal;
+   
+
+}
+
+@font-face {
+    font-family: 'Gluten';
+    src: url('fonts/Gluten-VariableFont_slnt\,wght.ttf') format(truetype);
+}
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+
+}
+
+header{
+    position:fixed ;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 5px 100px;
+    display: flex;
+    background:maroon;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+body{
+    background-image: url(img/image13jpg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+nav a {
+    font-size: 18px;
+    color: gold;
+    font-weight: 500;
+    text-decoration: solid;
+    margin-left:30px;
+    font-family: 'Gluten', sans-serif;
+}
+
+form{
+    margin: 10px;
+    text-align: right;
+}
+
+h1{
+    position: relative;
+    margin-top: 11%;
+    text-align: center;
+    font-family:'Kenia', sans-serif;
+    font-size: 100px;
+    color: maroon;
+}
+
+
+article{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px;
+}
+article h2{
+    font-size: 24px;
+    color: maroon;
+}
+
+article p{
+    font-size: 15px;
+    line-height: 1.5;
+    color:black;
+}
+
+.container {
+    display: flex;
+}
+
+.column{
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: 50%;
+}
+
+.column-container{
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.conteneur-services{
+    overflow: hidden;
+}
+
+.service{
+    float: left;
+    text-align: center;
+    width: 33.33%;
+    padding: 20px;
+}
+
+.titre-services{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+p{ 
+    color: darkblue;
+    margin: 0;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.containerbot{
+    display: flex;
+}
+
+.column1{
+    flex: 2;
+    margin: 10px;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: 50%;
+}
